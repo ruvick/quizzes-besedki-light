@@ -153,6 +153,10 @@ body._lock {
   background-image: url("../img/bg/main-bg-01.jpg");
 }
 
+.wrapper-single-04 {
+  background-image: url("../img/bg/main-bg-03.jpg");
+}
+
 .wrapper-single-06 {
   background-image: url("../img/bg/main-bg-02.jpg");
 }
@@ -3241,7 +3245,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .about__subtitle {
   position: relative;
   font-family: "Gilroy", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 21px;
   line-height: 35px;
   letter-spacing: 0.03em;
@@ -3249,7 +3253,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding-left: 60px;
 }
 .about__subtitle span {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .about__subtitle-trait {
@@ -3315,6 +3319,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
   .page-single-06 {
     background-image: url("../img/bg/main-bg-mob-02.jpg");
+  }
+  .page-single-04 {
+    background-image: url("../img/bg/main-bg-mob-03.jpg");
   }
   .page-thanks {
     background-image: url("../img/bg/main-bg-mob-thanks.jpg");
@@ -3503,6 +3510,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
   .page-single-06 {
     background-image: url("../img/bg/main-bg-mob-515-02.jpg");
+  }
+  .page-single-04 {
+    background-image: url("../img/bg/main-bg-mob-515-03.jpg");
   }
   .page-thanks {
     background-image: url("../img/bg/main-bg-mob-515-thanks.jpg");

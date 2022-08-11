@@ -144,6 +144,10 @@ body {
 	background-image: url('../img/bg/main-bg-01.jpg');
 }
 
+.wrapper-single-04 {
+	background-image: url('../img/bg/main-bg-03.jpg');
+}
+
 .wrapper-single-06 {
 	background-image: url('../img/bg/main-bg-02.jpg');
 }
@@ -230,7 +234,7 @@ body {
 .about__subtitle {
 	position: relative;
 	font-family: 'Gilroy', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 21px;
 	line-height: 35px;
 	letter-spacing: 0.03em;
@@ -238,7 +242,7 @@ body {
 	padding-left: 60px;
 
 	span {
-		font-weight: 300;
+		font-weight: 400;
 	}
 
 	// &::before {
