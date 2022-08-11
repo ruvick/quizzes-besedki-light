@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Страница благодарности"
+})
+
+<body>
+	<div class="wrapper wrapper-thanks">
+		@@include('_header.html',{})
+		<main class="page page-thanks">
+
+			<section id="about" class="about">
+				<div class="_container">
+					<h1 class="about__title">
+						<span>
+							БЛАГОДАРИМ ВАС ЗА <br> ОСТАВЛЕННУЮ ЗАЯВКУ!
+						</span>
+					</h1>
+					<p class="about__subtitle">
+						<span class="about__subtitle-trait">&mdash;</span> В ближайшее время наш менеджер свяжется с <br>
+						Вами. <span> Пока можете изучить наш сайт перейдя <br> по кнопке под текстом. <br> </span>
+					</p>
+					<a href="index.html" class="about__btn about__btn-thanks btn">Изучать сайт</a>
+				</div>
+			</section>
+
+		</main>
+		<!-- @@include('_footer.html',{}) -->
+	</div>
+	@@include('_popup.html',{})
+	@@include('_js.html',{})
+</body>
+
+</html>
