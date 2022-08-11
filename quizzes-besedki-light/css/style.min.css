@@ -3171,7 +3171,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100%;
-  border: 1px solid #000;
+  border: 0.3px solid grey;
+  border-radius: 10px;
 }
 
 .card__icon-01:before {
